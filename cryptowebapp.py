@@ -289,6 +289,7 @@ if selected=="Long Short-Term Memory":
 
 
 
+
 if selected=="Artificial Neural Networks":
  st.title("Till Date")
  cryptos=( "XRP-USD","MATIC-USD","ETH-USD","DOT-USD","BTC-USD")
@@ -383,8 +384,8 @@ if selected=="Artificial Neural Networks":
  st.write("The Mean Absolute Error is: ",Error2)
  st.write("The Mean Absolute Percentage Error is: ",Error3)
 
- if selected=="Conclusion":
-    st.write('''We concentrated on predicting the final value of cryptocurrency.
+if selected=="Conclusion":
+   st.write('''We concentrated on predicting the final value of cryptocurrency.
           comparing the performance of ANN and LSTM, two machine learning models,n order
           to determine which model is best able to forecast bitcoin prices. \n The LSTM model 
           performed better on the unseen data, according to our findings. Because the values 
